@@ -93,6 +93,12 @@ th{
     color: rgb(255, 253, 253);
 }
 
+.form-container{
+    justify-self: center;
+    display: flex;
+    justify-content: space-between;
+}
+
 .ticket-container{
     display: flex;
     justify-self: center;
