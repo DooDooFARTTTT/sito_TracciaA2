@@ -107,13 +107,36 @@ table{
     border: none;
     border-radius: 10px;
     transition-duration: 450ms;
+    cursor: grab;
+}
+
+.contact-container{
+    background-color: rgb(11, 139, 139);
+    margin: 30px;
+    border-radius: 15px;
+    color:white;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    font-size: 25px;
+}
+ 
+.contact-container > p{
+    padding: 20px;
+}
+
+.contact-container > img{
+    min-width: 200px;
+    max-width: 50%;
+    border-radius: 30px;
+    padding: 25px;
 }
 
 .footer{
     background-color: rgb(11, 139, 139);
     font-size: 35px;
     color: white;
-    margin-top: 90%;
+    margin-top: 30%;
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
