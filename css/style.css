@@ -4,13 +4,69 @@ body{
 }
 
 nav{
-    display: flexbox;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-pagina{
+    justify-self: center;
+    text-align: center;
 }
 
 a{
     text-decoration: none;
 }
 
+nav > a{
+    padding: 10px;
+    color: rgb(0, 3, 6);
+    font-size: 25px;
+}
+
 nav > a:hover{
-    
+    padding: 10px;
+    color: aliceblue;
+    font-size: 25px;
+    background-color: rgb(11, 139, 139);
+    transition-duration: 450ms;
+}
+
+.film-showcase{
+    display: inline-flex;
+}
+
+.film-container{
+    padding: 50px;
+}
+
+.film{
+    background-color: rgb(44, 175, 175);
+    border-radius: 20px;
+    text-align: center;
+    width: 500px;
+}
+
+.film:hover{
+    color: aliceblue;
+    background-color: rgb(11, 139, 139);
+    transition-duration: 450ms;
+    border-radius: 20px;
+    text-align: center;
+    width: 500px;
+}
+
+.film > h2{
+    font-size: 30px;
+    padding-top: 25px;
+}
+
+.film > img{
+    border-radius: 20px;
+    text-align: center;
+    width: 350px;
+}
+
+.film > p{
+    font-size: 20px;
+    padding-bottom: 25px;
 }
