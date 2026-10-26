@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(0, 231, 231);
+    
+}
+
+nav{
+    display: flexbox;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav > a:hover{
+    
+}
