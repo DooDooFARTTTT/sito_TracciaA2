@@ -70,3 +70,9 @@ nav > a:hover{
     font-size: 20px;
     padding-bottom: 25px;
 }
+
+table{
+    border-collapse: collapse;
+    border: solid 1px black;
+    background-color: rgb(11, 139, 139);
+}
