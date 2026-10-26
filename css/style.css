@@ -84,3 +84,37 @@ table{
     background-color: rgb(11, 139, 139);
     font-size: 25px; 
 }
+
+.ticket-container{
+    display: flex;
+    justify-self: center;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.ticket-btn{
+    background-color: rgb(44, 175, 175);
+    font-size: 35px;
+    color: black;
+    border: none;
+    border-radius: 10px;
+}
+
+.ticket-btn:hover{
+    background-color: rgb(11, 139, 139);
+    font-size: 35px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition-duration: 450ms;
+}
+
+.footer{
+    background-color: rgb(11, 139, 139);
+    font-size: 35px;
+    color: white;
+    margin-top: 90%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
